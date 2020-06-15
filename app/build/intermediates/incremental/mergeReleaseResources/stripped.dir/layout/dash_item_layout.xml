@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+    
+                                                                               
+           
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:paddingTop="16dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:tag="layout/dash_item_layout_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <TextView
+                android:tag="binding_1"     
+                android:id="@+id/where"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textSize="16sp"
+                tools:text="Food"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/paid_with_tv"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/where"
+                android:text="Status : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:tag="binding_2"          
+                android:layout_marginStart="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/paid_with_tv"
+                android:textColor="@android:color/black"
+                app:layout_constraintTop_toTopOf="@+id/paid_with_tv"
+                app:layout_constraintStart_toEndOf="@+id/paid_with_tv"
+                tools:text="cash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:textSize="12sp"
+                android:id="@+id/time_stamp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/paid_with_tv"
+                tools:text="23-23-1099 12:00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/value"
+                android:tag="binding_3"     
+                android:textStyle="bold"
+                android:textSize="24sp"
+                tools:text="-2000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/view4"/>
+
+        <View
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/time_stamp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="0dp"
+                android:layout_height="1dp" android:id="@+id/view4"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

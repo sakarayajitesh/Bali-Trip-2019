@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                            
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:background="#d3d3d3"
+            android:layout_height="match_parent"
+            tools:context=".detail.DetailFragment" android:tag="layout/fragment_detail_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.recyclerview.widget.RecyclerView
+                tools:listitem="@layout/flight_item_layout"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/recycler_view"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

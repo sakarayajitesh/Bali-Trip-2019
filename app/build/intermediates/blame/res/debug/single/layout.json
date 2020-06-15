@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "D:\\Apps\\BaliTrip2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\checklist_item_layout.xml",
+        "source": "D:\\Apps\\BaliTrip2019\\app\\src\\main\\res\\layout\\checklist_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Apps\\BaliTrip2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_dialog_layout.xml",
+        "source": "D:\\Apps\\BaliTrip2019\\app\\src\\main\\res\\layout\\custom_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\Apps\\BaliTrip2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dashboard_fragment.xml",
+        "source": "D:\\Apps\\BaliTrip2019\\app\\src\\main\\res\\layout\\dashboard_fragment.xml"
+    },
+    {
+        "merged": "D:\\Apps\\BaliTrip2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_detail.xml",
+        "source": "D:\\Apps\\BaliTrip2019\\app\\src\\main\\res\\layout\\fragment_detail.xml"
+    },
+    {
+        "merged": "D:\\Apps\\BaliTrip2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\checklist_fragment.xml",
+        "source": "D:\\Apps\\BaliTrip2019\\app\\src\\main\\res\\layout\\checklist_fragment.xml"
+    },
+    {
+        "merged": "D:\\Apps\\BaliTrip2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "D:\\Apps\\BaliTrip2019\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\Apps\\BaliTrip2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home_item_layout.xml",
+        "source": "D:\\Apps\\BaliTrip2019\\app\\src\\main\\res\\layout\\home_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Apps\\BaliTrip2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_item_layout.xml",
+        "source": "D:\\Apps\\BaliTrip2019\\app\\src\\main\\res\\layout\\activity_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Apps\\BaliTrip2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\hotel_item_layout.xml",
+        "source": "D:\\Apps\\BaliTrip2019\\app\\src\\main\\res\\layout\\hotel_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Apps\\BaliTrip2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dash_item_layout.xml",
+        "source": "D:\\Apps\\BaliTrip2019\\app\\src\\main\\res\\layout\\dash_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Apps\\BaliTrip2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\flight_item_layout.xml",
+        "source": "D:\\Apps\\BaliTrip2019\\app\\src\\main\\res\\layout\\flight_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Apps\\BaliTrip2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layover_item_layout.xml",
+        "source": "D:\\Apps\\BaliTrip2019\\app\\src\\main\\res\\layout\\layover_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Apps\\BaliTrip2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_action_bar.xml",
+        "source": "D:\\Apps\\BaliTrip2019\\app\\src\\main\\res\\layout\\custom_action_bar.xml"
+    },
+    {
+        "merged": "D:\\Apps\\BaliTrip2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Apps\\BaliTrip2019\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

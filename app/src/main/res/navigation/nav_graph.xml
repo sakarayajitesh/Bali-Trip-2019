@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nav_graph"
+        app:startDestination="@id/homeFragment">
+
+    <fragment
+            android:id="@+id/homeFragment"
+            android:name="com.flashbox.balitrip2019.home.HomeFragment"
+            android:label="Home"
+            tools:layout="@layout/fragment_home">
+        <action
+                android:id="@+id/action_homeFragment_to_detailFragment"
+                app:destination="@id/detailFragment"
+                app:enterAnim="@anim/enter_from_below"
+                app:popExitAnim="@anim/exit_to_below" />
+    </fragment>
+    <fragment
+            android:id="@+id/detailFragment"
+            android:name="com.flashbox.balitrip2019.detail.DetailFragment"
+            android:label="fragment_detail"
+            tools:layout="@layout/fragment_detail">
+        <argument
+                android:name="home"
+                app:argType="com.flashbox.balitrip2019.home.Home" />
+    </fragment>
+    <fragment
+            android:id="@+id/checklistFragment"
+            android:name="com.flashbox.balitrip2019.checklist.ChecklistFragment"
+            android:label="Check List" />
+    <fragment
+            android:id="@+id/dashboardFragment"
+            android:name="com.flashbox.balitrip2019.dashboard.DashboardFragment"
+            android:label="Dashboard" />
+</navigation>
